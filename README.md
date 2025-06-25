@@ -38,11 +38,6 @@ This script provides a sophisticated method for typing Korean text by simulating
 
 This script provides a straightforward way to type English text by simulating character-by-character key presses. It's simpler than the Korean typer as it doesn't involve complex character decomposition.
 
-### How it Works
-
-1.  **Text Source**: As provided, the script currently uses a hardcoded string (`"sadfsdfsdfdsf"`) for typing. It includes commented-out code (`# korean_text = pyperclip.paste()`) that can be uncommented to enable reading text directly from the system clipboard.
-2.  **Character-by-Character Typing**: It uses `pyautogui.write()` to type the text, introducing a small delay (`interval=0.1`) between each character to simulate human typing.
-
 ### Usage
 
 1.  **Install Dependencies**:
