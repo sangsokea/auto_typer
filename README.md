@@ -49,11 +49,8 @@ This script provides a straightforward way to type English text by simulating ch
     ```bash
     pip install pyautogui pyperclip
     ```
-2.  **Modify (Optional)**: If you wish to type text from your clipboard instead of the hardcoded string, open `english_typer.py` and:
-    *   Uncomment the line: `korean_text = pyperclip.paste()`
-    *   Comment out or remove the line: `korean_text = "sadfsdfsdfdsf"`
-3.  **Copy English Text (if modified)**: If you modified the script to use the clipboard, copy the desired English text to your clipboard.
-4.  **Run the Script**: Execute `english_typer.py` from your terminal:
+2.  **Copy English Text**: Copy the desired English text to your system's clipboard.
+3.  **Run the Script**: Execute `english_typer.py` from your terminal:
     ```bash
     python english_typer.py
     ```
@@ -61,8 +58,7 @@ This script provides a straightforward way to type English text by simulating ch
 6.  **Typing Begins**: The script will then automatically type the text.
 
 ### Important Notes for `english_typer.py`
-
-*   **Hardcoded Text**: By default, it types a fixed string. Remember to modify the script if you intend to use clipboard content.
+*   **Clipboard Source**: This script reads the text directly from your system's clipboard. Ensure the desired text is copied before running.
 *   **Simplicity**: This script is designed for simple, direct typing of English characters.
 
 ## General Installation

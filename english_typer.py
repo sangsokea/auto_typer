@@ -11,7 +11,7 @@ def main():
     """
     try:
         # Get the Korean text from the user's clipboard
-        korean_text = "sadfsdfsdfdsf"
+        korean_text = pyperclip.paste()
 
         if not korean_text:
             print("Your clipboard is empty. Please copy the Korean answer text first.")
